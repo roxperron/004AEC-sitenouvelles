@@ -1,0 +1,29 @@
+<?php
+    require_once 'controlers/nouvelles.php';
+?>
+
+
+<!doctype html>
+<html lang="fr">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Nouvelle détaillé</title>
+ </head>
+ <body>
+
+        <h1 class="text-center pb-3">Nouvelle détaillé</h1>
+
+            <?php
+                $controlerNouvelles=new ControlerNouvelles;
+                $controlerNouvelles->afficherNouvelle();
+            ?>
+
+          
+    </div> 
+ </body>
+
+</html>
